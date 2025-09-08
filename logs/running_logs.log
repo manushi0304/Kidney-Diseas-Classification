@@ -57,3 +57,83 @@ x==========x]
 [2025-09-06 08:21:11,598: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2025-09-07 09:31:36,010: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 09:31:36,092: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 09:31:36,105: INFO: common: created directory at: artifacts]
+[2025-09-07 09:40:16,033: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 09:40:16,038: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 09:40:16,042: INFO: common: created directory at: artifacts]
+[2025-09-07 09:40:16,046: INFO: common: created directory at: artifacts\training]
+[2025-09-07 09:41:46,641: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 09:41:46,661: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 09:41:46,664: INFO: common: created directory at: artifacts]
+[2025-09-07 09:41:46,666: INFO: common: created directory at: artifacts\training]
+[2025-09-07 10:32:15,622: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 10:32:15,638: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 10:32:15,642: INFO: common: created directory at: artifacts]
+[2025-09-07 10:32:15,645: INFO: common: created directory at: artifacts\training]
+[2025-09-07 11:56:44,270: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 11:56:44,291: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 11:56:44,294: INFO: common: created directory at: artifacts]
+[2025-09-07 11:56:44,297: INFO: common: created directory at: artifacts\training]
+[2025-09-07 12:19:05,638: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:19:05,654: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:19:05,656: INFO: common: created directory at: artifacts]
+[2025-09-07 12:19:05,660: INFO: common: created directory at: artifacts\training]
+[2025-09-07 12:36:43,072: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-07 12:47:22,252: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:47:22,255: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:47:22,257: INFO: common: created directory at: artifacts]
+[2025-09-07 12:47:22,258: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-07 12:47:22,259: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-07 12:48:50,744: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-07 12:48:53,494: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:48:53,500: INFO: main: *******************]
+[2025-09-07 12:48:53,501: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-09-07 12:48:53,506: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:48:53,518: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:48:53,521: INFO: common: created directory at: artifacts]
+[2025-09-07 12:48:53,523: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-07 12:48:55,635: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-07 12:48:56,362: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-09-07 12:48:56,366: INFO: main: *******************]
+[2025-09-07 12:48:56,369: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-09-07 12:48:56,372: ERROR: main: name 'ModelTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\Manus\Desktop\Kidney-Diseas-Classification\main.py", line 37, in <module>
+    model_trainer = ModelTrainingPipeline()
+                    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ModelTrainingPipeline' is not defined
+[2025-09-07 12:55:40,853: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-07 12:55:40,859: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:55:40,867: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:55:40,869: INFO: common: created directory at: artifacts]
+[2025-09-07 12:55:40,871: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-07 12:55:40,872: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-07 12:56:30,566: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-07 12:56:32,006: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-07 12:56:32,007: INFO: main: *******************]
+[2025-09-07 12:56:32,011: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-09-07 12:56:32,021: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:56:32,030: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:56:32,034: INFO: common: created directory at: artifacts]
+[2025-09-07 12:56:32,035: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-07 12:56:33,110: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-07 12:56:34,018: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-09-07 12:56:34,020: INFO: main: *******************]
+[2025-09-07 12:56:34,023: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-09-07 12:56:34,028: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 12:56:34,033: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 12:56:34,035: INFO: common: created directory at: artifacts]
+[2025-09-07 12:56:34,037: INFO: common: created directory at: artifacts\training]
+[2025-09-07 13:15:17,141: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
